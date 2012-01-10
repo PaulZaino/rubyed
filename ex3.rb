@@ -10,7 +10,7 @@ puts "Roosters", 100 - 25 * 3 % 4
 puts "Now I will count the eggs:"
 
 # does the operation 4 mod 2 and 1 divided by for, then subtracts the later from the former, it then adds 3 plus 2 plus 1 minus 4 plus the result plus 6, then it prints the result 7
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6
 
 # prints the text in quotes including the numbers and math operators
 puts "Is it true that 3 + 2 <  5 - 7?"
