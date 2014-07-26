@@ -49,5 +49,5 @@ $('#UploadInput').change(function(){
 	
 
 // change the styling of the Preview box to make it look good
-	//$("div[data-label=UploadPreview]").css({"border": "1px solid #f2f2f2", "opacity": "1.0", "box-shadow": "0px 0px 7px #f8f8f8"});
+	$("div[data-label=UploadPreview]").css({"border": "1px solid #f2f2f2", "opacity": "1.0", "box-shadow": "0px 0px 7px #f8f8f8"});
 });
